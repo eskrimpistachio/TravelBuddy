@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "688698315724",
+    "firebase_url": "https://travelbuddy-520ec-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "travelbuddy-520ec",
+    "storage_bucket": "travelbuddy-520ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688698315724:android:b58dc09b87611a12d04369",
+        "android_client_info": {
+          "package_name": "com.example.loginsignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688698315724-gsc6ntmi6h49uvp96j9taahk04afecvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF2TxbCW0LuS7_ewVJ05j9TNTfd01ZF2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688698315724-gsc6ntmi6h49uvp96j9taahk04afecvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

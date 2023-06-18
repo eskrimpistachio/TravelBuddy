@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    >
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="682dp"
+        android:fontFamily="@font/satoshi_bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Add Destination"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="653dp"
+        android:fontFamily="@font/satoshi_regular"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Please fill the required detail destination"
+        android:textColor="#898989"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/add_edit_bg_2"
+        android:clipToPadding="false"
+        android:hint="Enter your destination description..."
+        android:padding="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="612dp"
+        android:fontFamily="@font/satoshi_regular"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addDestinastionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="574dp"
+        android:background="@drawable/add_edit_bg_1"
+        android:clipToPadding="false"
+        android:hint="Enter your destination name..."
+        android:padding="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="529dp"
+        android:fontFamily="@font/satoshi_regular"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="Location"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="441dp"
+        android:fontFamily="@font/satoshi_regular"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="Photos"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="401dp"
+        android:background="@drawable/add_edit_bg_1"
+        android:clipToPadding="false"
+        android:hint="Upload photos about your destination"
+        android:padding="10dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="347dp"
+        android:fontFamily="@font/satoshi_regular"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="Description"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="94dp"
+        android:background="@drawable/btn_back"
+        android:fontFamily="@font/satoshi_bold"
+        android:hint="Back"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="489dp"
+        android:background="@drawable/add_edit_bg_1"
+        android:clipToPadding="false"
+        android:hint="Enter your destination location..."
+        android:padding="10dp"
+        android:textSize="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="94dp"
+        android:background="@drawable/btn_submit"
+        android:hint="Submit"
+        android:fontFamily="@font/satoshi_bold"
+        android:textStyle="bold"
+        android:textColorHint="@color/white"
+        />
+
+
+</RelativeLayout>
